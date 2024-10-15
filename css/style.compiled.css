@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  border: 1px solid rgb(170, 3, 148);
+  padding: 20px;
+  background: rgb(228, 179, 249);
+  background: radial-gradient(circle, rgb(228, 179, 249) 7%, rgb(103, 35, 105) 100%);
+}
+
+.navImgLogo {
+  width: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* Nuevos estilos para los enlaces */
+ul a {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+footer {
+  display: block;
+  clear: both;
+  border: 1px solid rgb(170, 3, 148);
+  padding: 20px;
+  margin-top: 40px;
+  background: rgb(228, 179, 249);
+  background: radial-gradient(circle, rgb(228, 179, 249) 7%, rgb(103, 35, 105) 100%);
+}
+
+/*# sourceMappingURL=style.compiled.css.map */

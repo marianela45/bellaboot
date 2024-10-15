@@ -13,35 +13,13 @@ nav {
     gap: 40px;
     border: 1px solid rgb(170, 3, 148);
     padding: 20px;
+    background: rgb(228,179,249);
+    background: radial-gradient(circle, rgba(228,179,249,1) 7%, rgba(103,35,105,1) 100%);
+
 }
 
-main {
-    
-}
 
 .navImgLogo {
     width: 50px;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    gap: 20px; 
-}
-
-
-
-footer{
-    display: block;
-    clear: both;
-    border: 1px solid rgb(170, 3, 148);
-    padding: 20px;
-    margin-top: 40px;
-}
-h1 { 
-    color: blueviolet;
-
-}

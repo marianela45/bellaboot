@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 20px; 
+}
+
+/* Nuevos estilos para los enlaces */
+ul a {
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    color: white; 
+    text-transform: uppercase; 
+    transition: color 0.3s ease; 
+    text-decoration: none;
+}
