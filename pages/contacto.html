@@ -3,8 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="atención al cliente, preguntas frecuentes, realizar un pedido, entrega de pedidos, métodos de pago, contactar, devolución, instagram, formulario de contacto, télefono">
+        <meta name="author" content="bella glamour">
+        <meta name="description" content="¿Tienes dudas? Contáctanos en Bella Glamour para resolver tus preguntas sobre pedidos, productos y más. ¡Estamos aquí para ayudarte!">
 
-        
+
         <title>Contacto</title>
         <link rel="stylesheet" href="../css/style.compiled.css">
         <!-- incluimos bootstrap desde la web -->
@@ -30,14 +33,53 @@
 
         <!--SEGUNDA ESTRUCTURA = CONTENIDO-->
         <main>
-            <h1>Contacto</h1>
-            <section>
-                <article>
-                    <p>Envíanos un mail:</p>
-                    <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">Gmail</a>
-                </article>
+            <h1>Preguntas Frecuentes</h1>
+            <section class="preguntas-frecuentes">
+                <p><strong>¿Cómo puedo realizar un pedido?</strong><br>
+                Puedes pedir directamente desde nuestro perfil de Instagram o enviándonos un mensaje con los productos que deseas.</p>
+        
+                <p><strong>¿Cuánto tiempo tardará en llegar mi pedido?</strong><br>
+                Los tiempos de envío varían según la ubicación, pero generalmente los pedidos se entregan entre 2 y 5 días hábiles.</p>
+        
+                <p><strong>¿Qué métodos de pago aceptan?</strong><br>
+                Aceptamos pagos mediante transferencia bancaria, tarjetas de crédito y débito.</p>
+        
+                <p><strong>¿Puedo realizar un cambio o devolución?</strong><br>
+                Sí, ofrecemos cambios y devoluciones bajo ciertas condiciones. Consulta nuestra política de devoluciones para más detalles.</p>
+        
+                <p><strong>¿Cómo puedo contactar con atención al cliente?</strong><br>
+                Puedes enviarnos un mensaje directo en Instagram, o escribirnos a través del formulario de contacto en esta página. Responderemos lo antes posible.</p>
             </section>
-        </main>
+            <main class="contenedor-formulario">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Formulario de Contacto</h1>
+                        <section>
+                            <article>
+                                <form action="tu-script.php" method="post">
+                                    <div class="mb-3">
+                                        <label for="nombre" class="form-label">Nombre:</label>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Correo Electrónico:</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="telefono" class="form-label">Teléfono:</label>
+                                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="mensaje" class="form-label">Mensaje:</label>
+                                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn">Enviar</button>
+                                </form>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </main>
 
         <!--TERCERA ESTRUCTURA = PIÉ DE PÁGINA-->
         <footer>

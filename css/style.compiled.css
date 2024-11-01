@@ -17,6 +17,14 @@ nav {
   background: radial-gradient(circle, rgb(228, 179, 249) 7%, rgb(103, 35, 105) 100%);
 }
 
+nav a {
+  transition: color 0.3s, transform 0.3s;
+}
+nav a:hover {
+  color: violet;
+  transform: scale(1.05);
+}
+
 .navImgLogo {
   width: 50px;
 }
@@ -39,6 +47,122 @@ ul a {
   text-decoration: none;
 }
 
+.titulo-quienes-somos {
+  color: #861381;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.titulo-ubicacion {
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+strong {
+  color: violet;
+}
+
+.horarios-atencion {
+  color: violet;
+  text-align: right;
+  margin-top: 20px;
+}
+.horarios-atencion h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.horarios-atencion p {
+  font-size: 16px;
+}
+
+.contenedor-ubicacion {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+.contenedor-ubicacion .horarios-atencion {
+  color: violet;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  flex: 1;
+}
+.contenedor-ubicacion .horarios-atencion h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.contenedor-ubicacion .horarios-atencion p {
+  font-size: 18px;
+}
+.contenedor-ubicacion iframe {
+  flex: 1;
+  max-width: 400px;
+  height: 300px;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.contenedor-ubicacion iframe {
+  animation: zoomIn 0.6s ease forwards;
+}
+
+.contenedor-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+.contenedor-formulario .card {
+  width: 100%;
+  max-width: 500px;
+  background-color: #bf33c4;
+}
+.contenedor-formulario .card .card-body {
+  padding: 20px;
+}
+.contenedor-formulario .card .card-title {
+  text-align: center;
+}
+.contenedor-formulario .card .btn {
+  background-color: #7914a8;
+  color: #bf33c4;
+}
+.contenedor-formulario .card .btn:hover {
+  background-color: rgb(151.5627530364, 40.4696356275, 155.5303643725);
+}
+
+.preguntas-frecuentes {
+  text-align: center;
+}
+.preguntas-frecuentes p {
+  color: #333;
+}
+.preguntas-frecuentes p strong {
+  color: rgb(151, 37, 151);
+}
+
+.foto-caja {
+  border: 2px solid rgb(136, 30, 136);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
 footer {
   display: block;
   clear: both;
@@ -47,6 +171,7 @@ footer {
   margin-top: 40px;
   background: rgb(228, 179, 249);
   background: radial-gradient(circle, rgb(228, 179, 249) 7%, rgb(103, 35, 105) 100%);
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.compiled.css.map */

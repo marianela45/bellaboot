@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -16,6 +17,15 @@ nav {
     background: rgb(228,179,249);
     background: radial-gradient(circle, rgba(228,179,249,1) 7%, rgba(103,35,105,1) 100%);
 
+}
+
+nav a {
+    transition: color 0.3s, transform 0.3s;
+    
+    &:hover {
+        color: violet; 
+        transform: scale(1.05); 
+    }
 }
 
 
